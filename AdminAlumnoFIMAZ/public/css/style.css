@@ -1,0 +1,133 @@
+body {
+  font-family: "DM Sans", sans-serif;
+
+}
+
+.blur-overlay {
+  background: rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(6px);
+  transition: backdrop-filter 0.3s ease;
+}
+.card:hover .blur-overlay {
+  backdrop-filter: blur(0px);
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+  position: relative;
+  width: 65px; /* Width when closed */
+  transition: width 0.3s;
+  overflow: hidden;
+}
+
+.sidebar.open {
+  width: 200px; /* Width when opened */
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-text {
+  display: none; /* Hide text by default */
+  margin-left: 10px;
+}
+
+.sidebar.open .sidebar-text {
+  display: inline; /* Show text when open */
+}
+
+.menu a.active,
+details.active summary {
+  background-color: #2a323c; /* Background color for the active link */
+  color: white; /* Text color for the active link */
+  position: relative;
+}
+
+.menu a.active::before,
+details.active summary::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  border-radius: 10px;
+  background-color: white; /* Color de la línea izquierda */
+}
+
+.menu a {
+  position: relative;
+}
+
+.menu a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: white; /* Color de la línea izquierda */
+  transition: width 0.3s;
+}
+
+.menu a.active::before {
+  width: 4px;
+}
+
+/* Estilos para el elemento details */
+details[open] summary {
+  background-color: #2a323c; /* Background color for the open details */
+  color: white; /* Text color for the open details */
+  position: relative;
+}
+
+details[open] summary::before {
+  width: 4px;
+}
+
+summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.submenu {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.submenu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.submenu a.active {
+  background-color: #2a323c;
+  color: white;
+}
+
+.toggle-btn i {
+  font-size: 20px;
+}
+
+
+
+/* Button to toggle sidebar */
+.toggle-btn {
+  position: fixed;
+  top: 95%;
+  left: 35px;
+  transform: translateY(-50%);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  padding: 7px;
+  width: 35px;
+  height: 35px;
+
+}
