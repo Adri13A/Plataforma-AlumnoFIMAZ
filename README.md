@@ -34,10 +34,15 @@ La **página web** es una herramienta para administradores, que permite:
 
 ### **Página Web**
 - **Back-end:**
-  > - PHP (PDO, POO), MySQL
+  > - PHP (PDO, POO)
+  > -  MySQL
 
 - **Front-end:**
-  > - HTML, CSS, JavaScript, Tailwind, daisyUI
+  > - HTML
+  > - CSS
+  > - JavaScript
+  > - Tailwind
+  > - daisyUI
 
 <hr>
 
