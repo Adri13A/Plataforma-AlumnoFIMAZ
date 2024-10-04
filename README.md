@@ -40,7 +40,6 @@ La **página web** es una herramienta para administradores, que permite:
 - **Front-end:**
   > - HTML
   > - CSS
-  > - JavaScript
   > - Tailwind
   > - daisyUI
 
