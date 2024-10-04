@@ -88,14 +88,42 @@ La **página web** es una herramienta para administradores, que permite:
 4. Interfaz sencilla para los administradores.
 
 ## **Imágenes**
+### **Página Web**
+- ### **Inicio**
+>![inicio](https://github.com/user-attachments/assets/05c5f155-5811-4927-b673-19496f3ae7d0)
 
-Incluye capturas de pantalla de la aplicación móvil y la página web para mostrar su funcionalidad.
+- ### **Agregar Nuevo Recurso**
+> ![agregarRecurso](https://github.com/user-attachments/assets/68e37032-cf5f-4291-b91b-d3bf7d7cea80)
+
+- ### **Ver Recursos**
+> ![verRecursos](https://github.com/user-attachments/assets/e0c2b4e1-db24-4dd0-aa78-4f82fbef8dd6)
+
+- ### **Editar Recurso**
+> ![editarRecurso](https://github.com/user-attachments/assets/c1d622ef-ba53-4c38-a7f7-e5b9aed91184)
+
+### **Aplicación Movil**
+
+- ### **Inicio**
+> ![inicioApp](https://github.com/user-attachments/assets/118a89e7-8f48-4608-bf3b-68cb591bb3f9)
+
+- ### **Calificaciones**
+> ![calApp](https://github.com/user-attachments/assets/228ad659-34bd-4736-b561-73101d952b87)
+
+
+- ### **Recursos**
+> ![recursosApp](https://github.com/user-attachments/assets/514ab3f6-44ea-499b-92a8-cd69cba4c911)
+
+
+- ### **Perfil Alumno**
+> ![perfilApp](https://github.com/user-attachments/assets/b7ce609f-8612-4efa-a4aa-6c2273b3e26b)
+
+
+
+
 
 ## **Licencia**
 
-**AlumnoFIMAZ** y **adminAlumnoFIMAZ** se publican bajo la licencia **MIT**.
-
-[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+El autor mantiene todos los derechos sobre el software el cual no se permite las modificaciones o distribución.
 
 ## **Autores**
 
